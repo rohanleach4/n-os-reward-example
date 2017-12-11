@@ -11,8 +11,8 @@ The concept of rewarding digital entities is important for the growth of decentr
 and N-OS.
 
 ### Reward is a key, conceptual enabler.
-The end goal is to allow a device to pay for is own use, whether that be a car paying for its own fuel
-or a web app paying for its own hosting.
+Conceptualy, the end goal is to allow a device to pay for is own use, whether that be a car paying for its own fuel
+or a web app paying for its own hosting, etc.
 
 ## Example
 This example consists of one node, containing 3 workers carrying out a simple task.

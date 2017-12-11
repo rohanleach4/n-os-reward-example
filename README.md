@@ -25,7 +25,7 @@ Once it registers a change, it grabs the values stored in the time sheets and fi
 The fastest one is rewarded by adding a fake token to winning workers wallet.
 
 ### To run
-> clone the repro
-> CD into the directory
-> npm install
-> node sentinel.js
+- clone the repro
+- cd into the directory
+- npm install
+- node sentinel.js

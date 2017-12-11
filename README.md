@@ -26,6 +26,6 @@ The fastest one is rewarded by adding a fake token to winning workers wallet.
 
 ### To run
 - clone the repro
-- cd into the directory
+- cd n-os-reward-example
 - npm install
 - node sentinel.js

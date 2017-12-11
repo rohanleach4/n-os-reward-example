@@ -1,5 +1,6 @@
 # N-OS Reward a worker example
-Overview
+## Overview
+
 A node.js example of how an N-OS (non organic stimuli) or an AI could be rewarded for a task completed.
 
 This is a _very_ simple N-OS POC.

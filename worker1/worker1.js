@@ -1,5 +1,5 @@
 // simple node script to measure how long a process takes
-var fs = require("fs");
+var fs = require('fs');
 function timesheet() {
   var startTime = process.hrtime();
 
@@ -10,19 +10,18 @@ function timesheet() {
   // process ends
 
   var timeTaken = parseHrtimeToSeconds(process.hrtime(startTime));
-  console.log("process has taken " + timeTaken + "seconds");
+  console.log('process has taken ' + timeTaken + 'seconds');
 
-  fs.writeFile("./worker1/worker1_timesheet.txt", timeTaken, function(err) {
+  fs.writeFile('./worker1/worker1_timesheet.txt', timeTaken, function(err) {
     if (err) {
       return console.log(err);
     }
-
-    console.log("The file was saved!");
+    console.log('The file was saved!');
   });
 }
 
 function parseHrtimeToSeconds(hrtime) {
-  var seconds = (hrtime[0] + hrtime[1] / 1e9).toFixed(3);
+  var seconds = (hrtime[0] + hrtime[1] / 1e9).toFixed(10);
   return seconds;
 }
 timesheet();

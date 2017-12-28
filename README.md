@@ -1,9 +1,11 @@
 # N-OS Reward a worker example
+
 ## Overview
 
-A node.js example of how an N-OS (non organic stimuli) or an AI could be rewarded for a task completed.
+A node.js example of how an N-OS (non organic stimuli) or an AI could be rewarded for a task completed..
 
-## Brief 
+## Brief
+
 This is a _very_ simple N-OS POC.
 To make this POC quick and simple and for everyone, there are no databases used.
 It exists to demonstrate the concept of N-OS and a Sentinel can reward one of its workers with a token.
@@ -11,10 +13,12 @@ The concept of rewarding digital entities is important for the growth of decentr
 and N-OS.
 
 ### Reward is a key, conceptual enabler.
+
 Conceptualy, the end goal is to allow a device to pay for is own use, whether that be a car paying for its own fuel
 or a web app paying for its own hosting, etc.
 
 ## Example
+
 This example consists of one node, containing 3 workers carrying out a simple task.
 In this instance, the task is just a loop. Each worker has the loop written differently,
 but achieves the same output. Once the task is completed, it writes how long it takes to complete its
@@ -25,7 +29,8 @@ Once it registers a change, it grabs the values stored in the time sheets and fi
 The fastest one is rewarded by adding a fake token to winning workers wallet.
 
 ### To run
-- clone the repro
-- cd n-os-reward-example
-- npm install
-- node sentinel.js
+
+* clone the repro
+* cd n-os-reward-example
+* npm install
+* node sentinel.js
